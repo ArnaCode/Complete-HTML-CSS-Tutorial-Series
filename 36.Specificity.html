@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="36.Specificity.css" />
+    <title>CSS Specificity</title>
+  </head>
+  <body>
+    <!-- 
+          Selector                                               Specificity
+
+    1- !important                                                Exception
+    2- Inline                                                    1000
+    3- IDs                                                       100
+    4- Classes, Pseudo Classes, Attribute Selectors              10
+    5- Element Selectors, Pseudo Elements                        1
+    6- The Universal Selector                                    0
+     -->
+
+    <h1 id="main-title" style="font-size: 50px">Animal Planet</h1>
+
+    <p id="main-para" class="main-para">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla eius error
+      deleniti dolores aperiam, excepturi aliquid minus numquam, doloribus ut
+      laudantium corrupti assumenda, iste est quaerat debitis nesciunt cumque
+      fugit.
+    </p>
+  </body>
+</html>

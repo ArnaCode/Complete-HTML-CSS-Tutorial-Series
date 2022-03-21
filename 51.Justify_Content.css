@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  padding: 15px;
+  background-color: #336;
+  color: white;
+  margin: 5px;
+}
+
+ul {
+  display: flex;
+
+  /* 
+      flex direction row ->>> main axis is row/horizontal/inline. Cross axis is block/vertical/column
+
+      flex direction column ->>> main axis is block/vertical/column. Cross axis is row/horizontal/inline
+
+  */
+
+  justify-content: flex-start; /* Default */
+
+  justify-content: flex-end;
+
+  justify-content: center;
+
+  justify-content: space-around;
+
+  justify-content: space-between;
+
+  justify-content: space-evenly;
+}

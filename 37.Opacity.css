@@ -1,0 +1,18 @@
+div {
+  height: 250px;
+  width: 250px;
+
+  /* a => Alpha Channel */
+
+  background-color: rgba(72, 82, 112, 0.6);
+  background-color: hsla(225, 22%, 36%, 0.3);
+}
+
+img:nth-child(2) {
+  position: absolute;
+  /* border: 20px solid red; */
+}
+
+img:first-of-type {
+  opacity: 0.5;
+}

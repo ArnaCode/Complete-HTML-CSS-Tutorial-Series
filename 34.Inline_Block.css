@@ -1,0 +1,24 @@
+span {
+  height: 100px;
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: lightgreen;
+}
+
+div {
+  /* height: 100px;
+  width: 400px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: lightgreen;
+  color: white;
+}
+
+span {
+  display: block;
+}
+
+div {
+  display: inline;
+}

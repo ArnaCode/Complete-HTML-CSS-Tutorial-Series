@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  padding: 15px;
+  background-color: #336;
+  color: white;
+}
+
+ul {
+  display: flex;
+  gap: 5px;
+}
+
+/* 
+flex: 0 1 auto;
+*/
+
+li:first-child {
+  /* Flex Shrink = 0
+    Flex Basis = 0% */
+  flex: 2;
+}
+
+li:last-child {
+  flex: 3 0 150px;
+
+  flex: 3 1 150px;
+}

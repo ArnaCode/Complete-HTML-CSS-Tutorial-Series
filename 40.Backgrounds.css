@@ -1,0 +1,14 @@
+section {
+  height: 500px;
+  width: 800px;
+  border: 2px tomato solid;
+
+  /* background-color: rgba(110, 150, 190, 0.5); */
+
+  background-image: url("images/sniper-sun.jpg");
+
+  background-size: cover;
+  /* background-size: contain; */
+
+  background-repeat: no-repeat;
+}

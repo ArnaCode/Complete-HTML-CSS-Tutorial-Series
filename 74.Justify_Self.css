@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+  font-size: 20px;
+  padding: 20px;
+  background-color: #dde04d;
+  color: white;
+}
+
+.container {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(5, 250px);
+  grid-template-rows: repeat(4, 100px);
+  background-color: lightseagreen;
+}
+
+.item-6 {
+  background-color: #0e185f;
+
+  justify-self: stretch; /* Default */
+
+  justify-self: center;
+
+  justify-self: start;
+
+  justify-self: end;
+}

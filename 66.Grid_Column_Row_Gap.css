@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+  font-size: 20px;
+  padding: 20px;
+  background-color: #dde04d;
+  color: white;
+}
+
+.container {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 100px);
+
+  column-gap: 15px;
+  row-gap: 5px;
+}

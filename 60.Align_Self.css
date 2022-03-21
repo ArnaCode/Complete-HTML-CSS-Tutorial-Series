@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  padding: 15px;
+  background-color: #336;
+  color: white;
+}
+
+ul {
+  display: flex;
+  gap: 5px;
+  height: 100vh;
+
+  align-items: center;
+  align-items: flex-start;
+}
+
+li:nth-child(6) {
+  align-self: auto; /* Default */
+
+  align-self: flex-start;
+
+  align-self: flex-end;
+
+  align-self: center;
+}

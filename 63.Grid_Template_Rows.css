@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+  font-size: 20px;
+  padding: 10px;
+  background-color: #dde04d;
+  color: white;
+}
+
+.container {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  grid-template-rows: 75px 75px 75px 75px 75px;
+
+  grid-template-rows: repeat(5, 100px);
+
+  grid-template-rows: [row-1-start] 100px [row-1-end row-2-start] 100px [row-2-end row-3-start] 100px [row-3-end row-4-start] 100px [row-4-end row-5-start] 100px [row-6-end];
+}

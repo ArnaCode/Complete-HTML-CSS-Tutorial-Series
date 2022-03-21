@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+  font-size: 20px;
+  padding: 10px;
+  background-color: #dde04d;
+  color: white;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+
+  grid-template-areas:
+    "header header header header header header header header header header header header"
+    "aside main main main main main main main main main main main"
+    "aside sec-1 sec-1 sec-1 sec-1 sec-2 sec-2 sec-2 sec-2 sec-2 sec-2 sec-2"
+    "aside sec-3 sec-3 sec-3 sec-3 sec-3 sec-3 sec-3 sec-4 sec-4 sec-4 sec-4"
+    "aside sec-5 sec-5 sec-5 sec-5 sec-5 sec-6 sec-6 sec-6 sec-6 sec-6 ."
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+.item-1 {
+  grid-area: header;
+  background-color: lightcoral;
+}
+
+.item-2 {
+  grid-area: main;
+  background-color: #019267;
+}
+
+.item-3 {
+  grid-area: aside;
+  background-color: #ffe61b;
+}
+
+.item-4 {
+  grid-area: sec-1;
+  background-color: #5902ec;
+}
+
+.item-5 {
+  grid-area: sec-2;
+  background-color: #b4cfb0;
+}
+
+.item-6 {
+  grid-area: sec-3;
+  background-color: #b4fe98;
+}
+
+.item-7 {
+  grid-area: sec-4;
+  background-color: #f76e11;
+}
+
+.item-8 {
+  grid-area: sec-5;
+  background-color: #ff6464;
+}
+
+.item-9 {
+  grid-area: sec-6;
+  background-color: #f4beee;
+}
+
+.item-10 {
+  grid-area: footer;
+  background-color: #bc8cf2;
+}

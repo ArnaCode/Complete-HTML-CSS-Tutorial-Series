@@ -1,0 +1,18 @@
+h5 {
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: capitalize;
+}
+
+/* p {
+  text-transform: capitalize;
+} */
+
+h6 {
+  letter-spacing: 4px;
+}
+
+p {
+  word-spacing: 5px;
+  line-height: 25px;
+}

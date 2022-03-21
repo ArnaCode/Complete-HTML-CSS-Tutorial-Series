@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+  font-size: 20px;
+  padding: 20px;
+  background-color: #dde04d;
+  color: white;
+}
+
+.container {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(5, 150px);
+  grid-template-rows: repeat(4, 100px);
+  height: 100vh;
+
+  background-color: lightseagreen;
+
+  place-content: center center;
+
+  place-content: center start;
+  place-content: start center;
+
+  place-content: center end;
+  place-content: end center;
+
+  place-content: space-evenly space-around;
+  place-content: space-around space-evenly;
+
+  place-content: space-between space-evenly;
+  place-content: space-evenly space-between;
+
+  place-content: space-between space-around;
+  place-content: space-around space-between;
+}

@@ -1,0 +1,41 @@
+nav {
+  height: 50px;
+  width: 50px;
+  background-color: #40514e;
+  padding: 10px;
+
+  /* Layout */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  height: 2px;
+  width: 40px;
+  background-color: #fff;
+
+  position: relative;
+}
+
+div::after {
+  content: "";
+  top: 10px;
+  left: 0;
+  position: absolute;
+
+  height: 2px;
+  width: 40px;
+  background-color: #fff;
+}
+
+div::before {
+  content: "";
+  top: -10px;
+  left: 0;
+  position: absolute;
+
+  height: 2px;
+  width: 40px;
+  background-color: #fff;
+}

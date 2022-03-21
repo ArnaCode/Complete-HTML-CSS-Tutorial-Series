@@ -1,0 +1,21 @@
+/* Name/Element Selectors */
+
+article {
+  background-color: grey;
+}
+
+/* Hex Colors */
+h1 {
+  color: #ffffff;
+}
+
+/* HSL Colors */
+p {
+  color: hsl(0, 0%, 100%);
+}
+
+/* RGB Colors */
+
+body {
+  background-color: rgba(0, 0, 0, 0.2);
+}

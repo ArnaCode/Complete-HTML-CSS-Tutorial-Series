@@ -1,0 +1,20 @@
+/* Simple Selectors
+
+Element
+
+ID
+
+Class
+*/
+
+section {
+  background-color: lightgrey;
+}
+
+#main-title {
+  font-size: 35px;
+}
+
+.main-para {
+  font-weight: bold;
+}

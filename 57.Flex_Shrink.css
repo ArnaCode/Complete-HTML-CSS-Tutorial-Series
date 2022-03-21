@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  padding: 15px;
+  background-color: #336;
+  color: white;
+}
+
+ul {
+  display: flex;
+  gap: 5px;
+}
+
+li:first-child {
+  width: 300px;
+  flex-shrink: 2;
+}
+li:nth-child(2) {
+  width: 500px;
+  flex-shrink: 100;
+}

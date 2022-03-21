@@ -1,0 +1,30 @@
+h1 {
+  color: lawngreen;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+h2 {
+  text-align: right;
+}
+
+h3 {
+  text-decoration-line: line-through;
+  text-decoration-color: crimson;
+  text-decoration-style: solid;
+  text-decoration-thickness: 2px;
+}
+
+h4 {
+  text-decoration-line: underline;
+  text-decoration-color: #333;
+  text-decoration-style: solid;
+  text-decoration-thickness: 1px;
+}
+
+a {
+  text-decoration: none;
+}

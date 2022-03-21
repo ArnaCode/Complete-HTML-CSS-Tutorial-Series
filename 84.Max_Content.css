@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+  font-size: 20px;
+  background-color: #e04db0;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  gap: 5px;
+
+  grid-template-rows: repeat(2, 150px);
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  grid-template-columns: 1fr 1fr 1fr max-content;
+}

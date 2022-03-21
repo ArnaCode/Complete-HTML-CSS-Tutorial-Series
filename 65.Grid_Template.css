@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+  font-size: 20px;
+  padding: 20px;
+  background-color: #dde04d;
+  color: white;
+}
+
+.container {
+  display: grid;
+
+  gap: 10px;
+
+  grid-template:
+    [row-1-start] "header header header header header" 250px[row-1-end]
+    [row-2-start] "main main main sidebar sidebar" 250px[row-2-end]
+    [row-3-start] ". sec-1 sec-1 sec-1 ." 250px[row-3-end]
+    [row-4-start] "footer footer footer footer footer" 250px[row-4-end]
+    / 1fr 2fr 3fr 2fr 1fr;
+}
+
+.item-1 {
+  grid-area: header;
+}
+
+.item-2 {
+  grid-area: main;
+}
+
+.item-3 {
+  grid-area: sidebar;
+}
+
+.item-4 {
+  grid-area: sec-1;
+}
+
+.item-5 {
+  grid-area: footer;
+}

@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  margin: 0;
+}
+
+div {
+  height: 350px;
+  width: 350px;
+  background-color: #dcf889;
+
+  animation-name: color-switcher;
+  animation-duration: 5s;
+  animation-timing-function: cubic-bezier(1, 0, 0, 1);
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color-switcher {
+  0% {
+    background-color: #ffc600;
+  }
+
+  10% {
+    background-color: #e900ff;
+  }
+
+  20% {
+    background-color: #5800ff;
+  }
+
+  30% {
+    background-color: #000000;
+  }
+
+  40% {
+    background-color: #0c1e7f;
+  }
+
+  50% {
+    background-color: #612897;
+  }
+
+  60% {
+    background-color: #d22779;
+  }
+
+  70% {
+    background-color: #ff6363;
+  }
+
+  80% {
+    background-color: #ffab76;
+  }
+
+  90% {
+    background-color: #fffda2;
+  }
+
+  100% {
+    background-color: lawngreen;
+  }
+}

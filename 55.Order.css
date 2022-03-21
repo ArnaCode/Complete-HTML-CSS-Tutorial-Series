@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  padding: 15px;
+  background-color: #336;
+  color: white;
+}
+
+ul {
+  display: flex;
+  gap: 5px;
+}
+
+/* 
+Default
+
+order: 0;
+*/
+
+/* 
+-3    -2    -1    0    1    2    3
+*/
+
+li:first-child {
+  order: 1;
+}
+
+li:nth-child(4) {
+  order: 2;
+}
+
+li:nth-child(5) {
+  order: -1;
+}

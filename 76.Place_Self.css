@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+  font-size: 20px;
+  padding: 20px;
+  background-color: #dde04d;
+  color: white;
+}
+
+.container {
+  display: grid;
+  gap: 5px;
+  height: 100vh;
+  grid-template-columns: repeat(5, 250px);
+  grid-template-rows: repeat(4, 1fr);
+  background-color: lightseagreen;
+}
+
+.item-4 {
+  background-color: #0e185f;
+
+  /* <align-self> <justify-self> */
+
+  place-self: center center;
+
+  place-self: start end;
+
+  place-self: end start;
+
+  place-self: start start;
+
+  place-self: end end;
+}

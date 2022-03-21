@@ -1,0 +1,23 @@
+main {
+  color: white;
+}
+
+section {
+  padding: 25px;
+}
+
+section:first-child {
+  background-color: #222831;
+}
+
+section:nth-child(2) {
+  background-color: #393e46;
+}
+
+section:nth-child(3) {
+  background-color: #00adb5;
+}
+
+section:last-child {
+  background-color: #a8d8ea;
+}

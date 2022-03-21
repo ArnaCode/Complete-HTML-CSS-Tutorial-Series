@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  padding: 15px;
+  background-color: #336;
+  color: white;
+  margin: 5px;
+}
+
+ul {
+  display: flex;
+
+  flex-flow: row nowrap; /* Default */
+
+  flex-flow: row wrap;
+
+  flex-flow: column nowrap;
+
+  flex-flow: column wrap;
+
+  flex-flow: column wrap-reverse;
+}

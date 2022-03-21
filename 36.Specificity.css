@@ -1,0 +1,26 @@
+h1 {
+  font-size: 10px;
+}
+
+h1#main-title {
+  font-size: 80px;
+}
+
+#main-para {
+  background-color: lightseagreen;
+  color: white;
+}
+
+.main-para {
+  background-color: lightblue;
+}
+
+p {
+  background-color: lightgoldenrodyellow;
+  padding: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

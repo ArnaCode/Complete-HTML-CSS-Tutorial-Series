@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+  font-size: 20px;
+  padding: 20px;
+  background-color: #dde04d;
+  color: white;
+}
+
+.container {
+  display: grid;
+
+  /* Explicit Column Tracks */
+  grid-template-columns: repeat(5, [col-start] 1fr [col-end]);
+  /* Explicit Row Tracks */
+  grid-template-rows: repeat(4, [row-start] 1fr [row-end]);
+
+  gap: 5px;
+
+  height: 100vh;
+  background-color: lightseagreen;
+}
+/* 
+.item-8 {
+  background-color: #ffd32d;
+
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  grid-row-start: 3;
+  grid-row-end: 4;
+} */
+
+.item-19 {
+  background-color: lightcoral;
+
+  grid-column-start: col-start 3;
+  grid-column-end: col-end 3;
+
+  grid-row-start: row-start 1;
+  grid-row-end: row-end 1;
+}
+/* 
+.item-10 {
+  background-color: lightslategray;
+
+  grid-column: col-start 1 / col-end 1;
+  grid-row: row-start 4 / row-end 4;
+} */
+
+.item-1 {
+  background-color: lightskyblue;
+
+  grid-area: row-start 4 / col-start 5 / row-end 4 / col-end 5;
+}
+
+.item-2 {
+  background-color: lightgreen;
+
+  /* Spanning Grid Items */
+  grid-column: col-start 1 / col-end 2;
+  grid-row: row-start 1 / row-end 2;
+}
+
+.item-5 {
+  background-color: lightpink;
+
+  /* Spanning Grid Items */
+  grid-area: row-start 2 / col-start 3 / row-end 5 / col-end 4;
+}
+
+/* Span Keyword */
+
+.item-7 {
+  background-color: tomato;
+
+  grid-column: col-start 1 / span 2;
+  grid-row: row-start 3 / span 2;
+}

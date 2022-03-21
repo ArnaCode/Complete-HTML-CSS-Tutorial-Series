@@ -1,0 +1,11 @@
+/* html = :root */
+
+:root {
+  --primary-color: #2f86a6;
+  --secondary-color: #f2f013;
+}
+
+body {
+  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
+}

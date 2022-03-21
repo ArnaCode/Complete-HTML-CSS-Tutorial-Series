@@ -1,0 +1,18 @@
+section {
+  background-color: lightslategray;
+  color: white;
+
+  padding: 15px;
+
+  /* border-style: dashed;
+  border-width: 5px;
+  border-color: black; */
+
+  /* border: 5px solid lightgreen;
+  border: tomato solid 10px; */
+
+  /* border-top: 2px black solid; */
+  /* border-right: 2px black solid; */
+  /* border-bottom: 2px black solid; */
+  border-left: 2px black solid;
+}

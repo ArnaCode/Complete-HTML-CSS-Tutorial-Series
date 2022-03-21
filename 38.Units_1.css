@@ -1,0 +1,28 @@
+/* Absolute Units */
+
+h1 {
+  font-size: 45px;
+}
+
+/* Relative */
+
+/* The "em" unit */
+
+section {
+  font-size: 10px;
+}
+
+p {
+  font-size: 2em;
+
+  /* height: 10em;
+  width: 10em;
+
+  padding: 1em; */
+
+  /* REM ->>> reference ->> root element */
+
+  font-size: 2rem;
+
+  height: 10rem;
+}

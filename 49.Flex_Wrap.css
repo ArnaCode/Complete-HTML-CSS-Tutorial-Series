@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  padding: 15px;
+  background-color: #336;
+  color: white;
+  margin: 5px;
+}
+
+ul {
+  display: flex;
+
+  flex-wrap: nowrap; /* Default */
+
+  flex-wrap: wrap;
+
+  flex-wrap: wrap-reverse;
+}

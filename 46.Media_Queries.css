@@ -1,0 +1,29 @@
+section {
+  height: 100px;
+  width: 100px;
+  background-color: #ff9300;
+}
+
+@media screen and (min-width: 1000px) {
+  section {
+    background-color: maroon;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  section {
+    background-color: magenta;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  section {
+    background-color: lawngreen;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  section {
+    background-color: blue;
+  }
+}
